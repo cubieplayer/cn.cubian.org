@@ -11,27 +11,29 @@
 </head>
 <body>
   <div class="container">
-	  <h1 class="sitename">Cubian</h1>
+	  <h1 class="sitename">Cubian<small> Debian on cubieboard</small></h1>
       <div class="nav">
 <a href="/">News</a>
 <a href="/downloads">Downloads</a>
-<a href="https://github.com/cubieplayer/Cubian/wiki">Wiki</a>
+<a href="/tutorials">Tutorials</a>
 <a href="/blog">Blog</a>
+<a href="https://github.com/cubieplayer/Cubian/wiki/Wiki-Index">Wiki</a>
+<a href="https://github.com/cubieplayer/Cubian/issues?state=open">Issue Tracker</a>
 </div>
 {{ content }}
 <footer>
-  <p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> and <a href="http://pages.github.com/">GitHub Pages</a></small></p>
+<p><small>Powered by <a href="https://github.com/mojombo/jekyll">Jekyll</a> and <a href="http://pages.github.com/">GitHub Pages</a> | <a rel="license" href="http://creativecommons.org/licenses/by-nc-sa/3.0/cn/">CC BY-NC-SA 3.0</a> </small> | <a class="label label-success" href="https://www.paypal.com/cgi-bin/webscr?cmd=_xclick&business=6HF99GCSFFTJW&lc=US&item_name=Donate%20Cubian&item_number=10000&amount=5%2e00&currency_code=USD&button_subtype=services&tax_rate=0%2e000&shipping=0%2e00&bn=PP%2dBuyNowBF%3abtn_paynow_SM%2egif%3aNonHosted" style="border:0;">Donate with paypal</a></p>
 </footer>
 </div>
-<script type="text/javascript">
-var _gaq = _gaq || [];
-_gaq.push(['_setAccount', '{{site:googleAnalyticsID}}']);
-_gaq.push(['_trackPageview']);
-(function() {
-  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  })();
-  </script>
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', '{{ site:googleAnalyticsID }}', '{{ site.domain }}');
+  ga('send', 'pageview');
+
+</script>
 </body>
 </html>

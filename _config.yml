@@ -7,3 +7,5 @@ exclude: [ README.md, newpost.rb ]
 domain: cubian.org
 disqusShortname: cubian
 pygments: true
+googleAnalyticsID: UA-42738908-1
+
