@@ -1,10 +1,10 @@
 ---
 layout: post
-title: "Cubian for cubieboard2 released"
+title: "Cubian cubieboard2版发布"
 categories: News 
 tags:
 ---
-For those first heard of this distribution. Please take a look at our [github Repository](https://github.com/cubieplayer/Cubian). We use Linux Kernel 3.3.0 for cubieboard2 instead of 3.4.43 on cubieboard1.
+第一听说这个发行版的朋友们，请先看看我们的 [github 仓库](https://github.com/cubieplayer/Cubian)。我们在 cubieboard2 上使用 Linux 内核版本是 3.3.0。 cubieboard1上的版本则是 3.4.43。
 
-# Note
-The module gpio_sunxi and mali is compiled, but not workes. It the driver problem. Hope cubietech can do something to make it work on cuieboard2.
+# 注意
+内核模块 gpio_sunxi 和 mali 编译了但是不能正常工作。这是驱动问题，希望 cubietech 可以做些事情让它们可以在cubieboard2上工作。
