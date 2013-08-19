@@ -9,7 +9,7 @@ The good news is **gpio_sunxi** and **mali** drivers is working on cubieboard2 n
 To autoload these modules,uncomment the associate line in **/etc/modules**.
 Aslo, the Ralink wireless driver is compiled but not tested, the driver name is `rt5370sta`.
 
-You need to update your [cubian-update](http://cubian.org/2013/08/09/cubian-update-is-available/) to latest version(1.0-3). To update, run
+You need to update your [cubian-update](http://cubian.org/2013/08/09/cubian-update-is-available/) to latest version(1.0-5). To update, run
 > apt-get update && apt-get install cubian-update
 
 To update the kernel, simply run
