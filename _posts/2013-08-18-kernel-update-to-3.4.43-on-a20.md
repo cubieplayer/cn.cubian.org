@@ -1,27 +1,27 @@
 ---
 layout: post
-title: "Kernel update to 3.4.43 on A20"
-categories: 
+title: "Cubieboard2(A20)内核更新到3.4.43"
+categories: News
 tags:
 ---
-Cubian for cubieboard2(A20) has update kernel from 3.3.0 to 3.4.43.
-The good news is **gpio_sunxi** and **mali** drivers is working on cubieboard2 now.
-To autoload these modules,uncomment the associate line in **/etc/modules**.
-Aslo, the Ralink wireless driver is compiled but not tested, the driver name is `rt5370sta`.
+cubieboard2(A20)的Cubian已经更新内核，从3.3.0升级到3.4.43。
+好消息是 **gpio_sunxi** 和 **mali** 已经可以在cubieboard2上工作了。
+要在开机后自动加载驱动，反注释 **/etc/modules** 中相应的行。
+另外，Ralink无线驱动已经编译进内核，但尚未进行测试，驱动的名字叫`rt5370sta`。
 
-You need to update your [cubian-update](http://cubian.org/2013/08/09/cubian-update-is-available/) to latest version(1.0-5). To update, run
+你需要更新 [cubian-update](http://cn.cubian.org/2013/08/09/cubian-update-is-available/) 到最新版(1.0-5)。要更新，执行
 > apt-get update && apt-get install cubian-update
 
-To update the kernel, simply run
+要更新内核，请执行
 > cubian-update
 
-If you have problems, please enable verbose mode to get more details
+如果遇到问题，请开启罗嗦模式以得到更多信息
 > cubian-update -v
 
-To downgrade the kernel after updated, run
+如果更新以后需要降级内核，执行
 > cubian-update --revert-firmware
 
-If you are using the new kernel, The nandinstaller won't work due to the nand driver changes.
-Please use the new [universal nandinstaller](http://cubian.org/2013/08/18/universal-and-separate-nandinstaller-is-released) instead.
+如果你使用新内核，因为NAND驱动的改变，旧的NAND安装工具无法正常工作。
+请使用新的[统一的NAND安装工具](http://cn.cubian.org/2013/08/18/universal-and-separate-nandinstaller-is-released)取代
 
-Enjoy the new kernel, Feel free to report on github if you have any problems.
+欢迎使用新内核，如果有问题欢迎到Github上反馈。

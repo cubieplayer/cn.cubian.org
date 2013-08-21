@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cubian 更新工具发布"
-categories: 
+categories: News
 tags:
 ---
 cubian-update 是一个可以保持内核和模块更新的工具

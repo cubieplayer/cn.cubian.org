@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "扩大Cubian根文件系统分区工具"
-categories: 
+categories: News
 tags:
 ---
 根文件系统分区在Cubian上默认是1GB。要扩大这个分区以获得更多空间。[这里](http://askubuntu.com/questions/24027/how-to-resize-a-ext4-root-partition-at-runtime) 有个小教程。  
