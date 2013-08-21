@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cubieboard2(A20)内核更新到3.4.43"
-categories: News
+categories: [news]
 tags:
 ---
 cubieboard2(A20)的Cubian已经更新内核，从3.3.0升级到3.4.43。

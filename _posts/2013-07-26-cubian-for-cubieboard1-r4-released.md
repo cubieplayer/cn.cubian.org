@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cubian r4 cubieboard1版发布"
-categories: News
+categories: [news]
 tags:
 ---
 r4 有如下改变:

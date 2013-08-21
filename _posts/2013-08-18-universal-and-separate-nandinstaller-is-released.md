@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "统一单独的NAND安装工具发布"
-categories: News
+categories: [news]
 tags:
 ---
 我创建了一个单独的NAND安装工具软件包，它支持A10(cubieboard1)和A20(cubieboard2)，无论内核版本。

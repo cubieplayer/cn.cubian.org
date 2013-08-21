@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Cubian cubieboard2版发布"
-categories: News 
+categories: [news]
 tags:
 ---
 第一听说这个发行版的朋友们，请先看看我们的 [github 仓库](https://github.com/cubieplayer/Cubian)。我们在 cubieboard2 上使用 Linux 内核版本是 3.3.0。 cubieboard1上的版本则是 3.4.43。
