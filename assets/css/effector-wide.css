@@ -18,7 +18,6 @@ footer {
      margin:  0px 20px 0px 0px;
 }
 html {
-    font-size: 100%;
     -webkit-text-size-adjust: 100%;
     -ms-text-size-adjust: 100%
 }
@@ -42,14 +41,6 @@ img {
     margin-top: 10px;
 }
 
-body {
-    margin: 0;
-	font-family:华文细黑,STHeiti,"Microsoft YaHei",微软雅黑,"Microsoft JhengHei","Helvetica Neue",Helvetica,Helvetica,Arial,sans-serif;
-	-webkit-font-smoothing:antialiased;
-    font-size: 15px;
-    line-height: 30px;
-    color: #555;
-}
 a {
     color: #F95B1F;
     text-decoration: none;
@@ -368,19 +359,24 @@ text-shadow: 0 1px 0 #fff;
 }
 .wrapper  {
     background-color:  #fff;
-    margin:  10px 0px 50px 0px;
-    padding:  10px 0px;
+    margin:  0px 0px 50px 0px;
+    padding:  0px 0px;
 }
 
 .postsList {
     margin: 0px 0px 10px 0px;
 }
-
 .postsList li{
   list-style: none;
   padding: 5px 3px;
   margin: 0;
   border-bottom: 1px solid #eee;
+}
+.postsList li.title_year{
+  border-bottom: 0;
+}
+.postsList li.title_year h2{
+  margin:0;
 }
 .postsList li span{
     color: #bbb;
