@@ -11,7 +11,7 @@ tags:
 * 修复了一处启动时[挂起](https://github.com/cubieplayer/Cubian/issues/36)的问题。
 * 第一次启动时生成SSH key。
 * 移除了Nand安装文件夹。 请使用[安装工具](http://cn.cubian.org/2013/08/18/universal-and-separate-nandinstaller-is-released)代替。
-* 集成 [cubian-update](http://localhost:4000/2013/08/09/cubian-update-is-available)
+* 集成 [cubian-update](http://cn.cubian.org/2013/08/09/cubian-update-is-available)
 
 # 提示
 
