@@ -13,7 +13,7 @@ Cubian 默认没有安装桌面，但是现在你可以轻松的安装它。
 依次执行
 > apt-get update
 > cubian-update  
-> apt-get install xserver-xorg-core xinit xserver-xorg-video-sunximali sunxi-disp-test lxde-core 
+> apt-get install xserver-xorg-core xinit xserver-xorg-video-sunximali sunxi-disp-test lxde 
 > usermod -a -G video cubie
 
 如果一切正常，你就会得到一个经显卡加速的LXDE桌面。
