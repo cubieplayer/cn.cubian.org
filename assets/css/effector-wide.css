@@ -31,6 +31,16 @@ a:focus {
 a:hover, a:active {
     outline: 0;
 }
+.tag-cloud a{
+       color:#2980b9;
+}
+.tag-cloud a:hover, .tag-cloud a:active{
+       color:#3498DB;
+}
+.tag-cloud span{
+       vertical-align:super;
+       font-size:0.8em;
+}
 img {
     max-width: 800px;
     height: auto;
