@@ -37,4 +37,4 @@ Cubian 默认没有安装桌面，但是现在你可以轻松的安装它。
 1.	把用户 cubie 添加到 **video** 组, 这样他才可以正常访问显卡设备。
 1.	再次执行测试程序，看看是否正常。从开始菜单打开 lxtermial 执行
 
-	> xinit /usr/bin/sunxi_disp_test
+	> sunxi_disp_test
