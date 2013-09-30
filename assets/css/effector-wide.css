@@ -404,6 +404,14 @@ h1.sitename {
     text-decoration: line-through;
 }
 
+.donate_amount{
+	width:auto;
+	height:auto;
+	padding:0;
+	margin:-4px 0 0 0;
+	font-size:14px;
+}
+
 @media only screen and (max-width:768px) {
     .container {
     width:  auto;
