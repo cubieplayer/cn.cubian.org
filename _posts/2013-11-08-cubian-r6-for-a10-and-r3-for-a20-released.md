@@ -11,8 +11,8 @@ Cubian现在是cubieboard上一个锤炼过的系统，看一下[问题跟踪系
 * 内核更新到当前的最新版本3.4.67+
 * 更新了U-Boot，加快启动速度
 * 更多的WIFI模块支持
-* 预安装Web控制面板Ajenti
-* 预安装[udevil](http://ignorantguru.github.io/udevil/)
+* 预安装Web控制面板[Ajenti](http://ajenti.org)
+* 预安装[udevil](http://ignorantguru.github.io/udevil)
 
 # 演示
 系统闲置时的负载看起来不错。
