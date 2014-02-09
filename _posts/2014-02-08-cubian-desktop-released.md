@@ -36,4 +36,4 @@ tags:
 
 * 桌面开始屏幕
 
-![桌面截图](http://cubieplayer.github.io/static_files/images/cubian-desktop-scrot-small.png)
+![桌面截图](http://cubieplayer.github.io/static_files/images/cubian-desktop-scrot-cn-small.png)
