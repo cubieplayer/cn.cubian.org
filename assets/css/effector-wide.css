@@ -412,6 +412,26 @@ h1.sitename {
 	font-size:14px;
 }
 
+.fluid li{
+	min-width:50%;
+	float:left;
+}
+
+.left-title{
+	text-align:left;
+	padding-left:25px;
+}
+
+.sect{
+	text-align:center;
+	clear:both;
+	padding:15px 0 10px 0;
+}
+
+.clear-both{
+	clear:both;
+}
+
 @media only screen and (max-width:768px) {
     .container {
     width:  auto;
