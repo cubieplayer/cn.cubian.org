@@ -1,7 +1,7 @@
 <div class="wrapper">
 {% assign latestPost=site.categories.news.first %}
 <article>
-<h1><a href="{{ site.url }}{{ latestPost.url }}">{{ latestPost.title }}</a> <small>{{ latestPost.date | date:"%b %d, %Y" }}</small></h1>
+<h1><a href="{{ site.url }}{{ latestPost.url }}">{{ latestPost.title }}</a> <small>{{ latestPost.date | date:"%b %d, %Y" }}</small> <a href="/feed.xml" class="pull-right"><img src="/assets/icon/rss_small_icon.png"/></a></h1>
 {{ latestPost.content }}
 </article>
 <ul class="postsList">
