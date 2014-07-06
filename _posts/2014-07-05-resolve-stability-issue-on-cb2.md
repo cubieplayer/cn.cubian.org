@@ -25,7 +25,7 @@ It has been confirmed that a substantial percentage of cubieboard2 and cubietruc
 <code>apt-get update && apt-get install linux-image</code>
 2. 第二步，安装硬件测试软件 
 <code>apt-get install cpuburn-sunxi lima-memtester</code>
-3. 第三部，执行测试
+3. 第三部，执行测试  
 <code>cpuburn-sunxi</code> 测试在CPU负担比较重的情况下是否会过热死机。  
 <code>cpufreq-stress-test-sunxi</code> 测试CPU在各个频率下是否稳定运行。   
 <code>lima-memtester</code> 测试内存是否正常。
