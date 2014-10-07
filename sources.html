@@ -4,7 +4,7 @@ title: Cubian 源码
 permalink: /sources/
 ---
 <div class="wrapper">
-	<h1 id="linux">Linux</h1>
+	<h1 id="linux"><a href="https://github.com/mmplayer/linux-sunxi.git">Linux</a></h1>
 	<p>有两种获取源码的方式</p>
 	<ol>
 		<li><code>apt-get install linux-source</code></li>
@@ -17,7 +17,7 @@ permalink: /sources/
 	<p style="margin-bottom:0;font-weight:normal;">内核配置</p>
 	<ul><li>A10 硬件如 Cubieboard1 使用 <a href="https://github.com/mmplayer/sunxi-kernel-config/blob/master/config-cubian-base-sun4i">config-cubian-base-sun4i</a></li><li>A20 硬件如 Cubieboard2，Cubietruck 使用 <a href="https://github.com/mmplayer/sunxi-kernel-config/blob/master/config-cubian-base-sun7i-3.4">config-cubian-base-sun7i-3.4</a></li></ul><p style="margin-bottom:0;font-weight:normal;">编译指导</p><ul><li>配置<br/><code>make ARCH=arm menuconfig</code></li><li>编译<br/><code>make -j4 ARCH=arm CROSS_COMPILE=arm-none-linux-gnueabi- uImage modules</code></li><li>安装<br/><code>make STRIP=arm-none-linux-gnueabi-strip INSTALL_MOD_PATH=ROOTFS_PATH ARCH=arm INSTALL_MOD_STRIP=1 modules_install</code></li></ul>
 
-	<h1 id="uboot">U-Boot</h1>
+	<h1 id="uboot"><a href="https://github.com/mmplayer/u-boot-sunxi">U-Boot</a></h1>
 	<p style="margin-bottom:0;font-weight:normal;">分支信息</p>
 	<ul><li>sunxi - A10,A20 MMC 引导</li><li>sunxi-nand - A10 NAND 引导，支持ext4命令</li><li>dev/a20-nand-ext4-v2 - A20 NAND 引导，支持ext4命令</li></ul><p style="margin-bottom:0;font-weight:normal;">编译指导</p><ul><li>从 sunxi 分支 <br/><code>make Cubieboard|Cubieboard2|Cubietruck CROSS_COMPILE=arm-none-linux-gnueabi-</code><br/>会编译出 A10 和 A20 的硬件，如 Cubieboard 1，2 和 Cubietruck 的MMC引导程序u-boot</li><li>从 sunxi-nand 分支<br/><code>make Cubieboard CROSS_COMPILE=arm-none-linux-gnueabi-</code><br/>会编译出 A10 的硬件，如 Cubieboard1 的NAND引导程序u-boot</li><li>从 dev/a20-nand-ext4-v2 分支<br/><code>make sun7i CROSS_COMPILE=arm-none-linux-gnueabi-</code><br/>会编译出 A20 的硬件，如 Cubieboard2 和 Cubietruck 的 NAND 引导程序 u-boot</li></ul>
 		
