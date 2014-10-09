@@ -12,7 +12,7 @@ Cubian 致力于使 Debian 在 Cubieboard 上更容易，更快，更安全的�
 
 * **Nano** 命令行版
 * **Nano+headless** 无显示器支持的命令行版，无系统保留内存
-* **Desktop** 硬件加速的[MATE桌面](http://mate-desktop.org/)，支持 Flash 的 Chrome 浏
+* **Desktop** 硬件加速的[MATE桌面](http://mate-desktop.org/)，支持 Flash 的 Chromium 浏览器
 
 <p></p>
 如果你是第一次使用Cubian，请阅读 [上手Cubian](https://github.com/cubieplayer/Cubian/wiki/%E4%B8%8A%E6%89%8BCubian)。如果你没有改变任何设定，里面的规则依然适用。如果你不知道如何安装Cubian，请阅读 [安装Cubian](https://github.com/cubieplayer/Cubian/wiki/Install-Cubian)。
