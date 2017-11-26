@@ -6,6 +6,6 @@ subscribe: http://cubian.org/feed.xml
 exclude: [ README.md, newpost.rb ]
 domain: cubian.org
 disqusShortname: cubian
-pygments: true
+highlighter: pygments
 googleAnalyticsID: UA-42738908-1
 
